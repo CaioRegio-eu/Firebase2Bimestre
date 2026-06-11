@@ -1,0 +1,116 @@
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8FAFC; /* Fundo solicitado */
+    color: #334155;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: #111844 !important; /* Cor da navbar solicitada */
+    padding: 12px 24px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar .navbar-brand, 
+.navbar .nav-link {
+    color: #F5F5F5 !important; /* Cor das palavras solicitada */
+    transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #38bdf8 !important; /* Destaque sutil no hover */
+}
+
+/* ===== CARDS E CONTAINERS ===== */
+.page-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+h2, h3 {
+    color: #0f172a;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* ===== INPUTS E FORMULÁRIOS ===== */
+.form-control {
+    background-color: #ffffff !important;
+    color: #111844 !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+    padding: 10px 14px !important;
+    transition: all 0.2s ease-in-out !important;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #111844 !important;
+    box-shadow: 0 0 0 3px rgba(17, 24, 68, 0.15) !important;
+    outline: none;
+}
+
+/* ===== BOTÕES ===== */
+.btn-primary {
+    background-color: #111844 !important; /* Combinando com a navbar */
+    border: 1px solid #111844 !important;
+    color: #F5F5F5 !important; /* Cor das palavras solicitada */
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+.btn-primary:hover {
+    background-color: #0b0f2b !important;
+    border-color: #0b0f2b !important;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background-color: #f1f5f9 !important;
+    border: 1px solid #cbd5e1 !important;
+    color: #64748b !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    transition: all 0.2s ease !important;
+}
+
+.btn-secondary:hover {
+    background-color: #e2e8f0 !important;
+    color: #334155 !important;
+}
+
+/* ===== TABELAS ===== */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+}
+
+.table th {
+    background-color: #111844 !important; /* Cabeçalho harmonizado */
+    color: #F5F5F5 !important; /* Cor das palavras solicitada */
+    font-weight: 500;
+    padding: 12px;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 12px;
+    color: #334155;
+}
