@@ -3,7 +3,7 @@
 
 Sistema web responsivo para gerenciamento de Clientes, Categorias, Fornecedores e Funcionários, com armazenamento de dados em tempo real.
 
-* **Nome:** Caio Candiani Regio
+* **Nome:** Caio Candiani Regio, Enzo Miguel Bertoluci
 * **Turma:** 2DS
 
 ## Módulos
