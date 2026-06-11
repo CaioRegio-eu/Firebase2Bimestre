@@ -9,20 +9,15 @@ Sistema web responsivo para gerenciamento de Clientes, Categorias, Fornecedores 
 ## Módulos
 * **Home (`index.html`):** Tela inicial de boas-vindas.
 * **Clientes (`clientes.html`):** Cadastro de Nome e E-mail.
-* **Categorias (`categorias.html`):** Cadastro de Nome e Informações.
-* **Fornecedores (`fornecedores.html`):** Cadastro de Nome, CNPJ, E-mail e Estado (SP, RJ, MG).
-* **Funcionários (`funcionarios.html`):** Cadastro de Nome, E-mail e Cargo.
+* **Funcionários (`Vendedores.html`):** Cadastro de Nome, Salario e Cargo.
 
 ## Estrutura do Projeto
 ```Atividade- Atualizar e apagar-0506
 ├── index.html
 ├── clientes.html
-├── categorias.html
-├── fornecedores.html
-├── funcionarios.html
+├── Vendedores.html
+├── Integrantes
 └── JS/
     ├── firebase.js
     ├── clientes.js
-    ├── categorias.js
-    ├── fornecedores.js
     └── funcionarios.js
