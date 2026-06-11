@@ -20,4 +20,4 @@ Sistema web responsivo para gerenciamento de Clientes, Categorias, Fornecedores 
 └── JS/
     ├── firebase.js
     ├── clientes.js
-    └── funcionarios.js
+    └── vendedores.js
